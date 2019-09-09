@@ -75,12 +75,30 @@ def draw_own_object(image):
 
 
 <div align="center">Visualizing each of the 68 facial coordinate points</div>
-
-
-
 You can use [drawing functions](https://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html) in OpenCV in order to draw different shapes to form cool objects on the face. Note that the indexes in the diagram above need to be subtracted by 1 to access the position of the landmark. For example, in order to access the coordinates of the tip of the nose (point 34 in the above diagram), you need to use `shape[33]`. Similarly, if you want to find the coordinates of the leftmost rear of the face (point 1), you need to use `shape[0]`. 
 
 
 
 ## Results
 
+Here are the results from some sample images
+
+
+
+<img src="https://raw.githubusercontent.com/pkien01/draw-on-face/master/sample_images/obama_colored.jpg" style="zoom: 30%" />
+
+
+
+<img src="https://raw.githubusercontent.com/pkien01/draw-on-face/master/sample_images/trump_colored.jpg" style="zoom: 70%" />
+
+
+
+<img src="https://raw.githubusercontent.com/pkien01/draw-on-face/master/sample_images/hiccup_colored.jpg" style="zoom: 50%" />
+
+
+
+Enjoy!
+
+## Contacts
+
+If you have any questions or found some serious error/bug in the code, you can write an email to phamkienxmas2001@gmail.com, v.kienp16@vinai.io, or kindly leave a message below on GitHub. Thank you!
