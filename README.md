@@ -103,4 +103,4 @@ Enjoy!
 
 ## Contacts
 
-If you have any questions or found some serious errors/bugs in the code, you can write an email to phamkienxmas2001@gmail.com, v.kienp16@vinai.io, or kindly leave a message below on GitHub. Thank you!
+If you have any questions or found some serious errors/bugs in the code, you can kindly write an email to phamkienxmas2001@gmail.com, v.kienp16@vinai.io, or leave a message below on GitHub. Thank you!
