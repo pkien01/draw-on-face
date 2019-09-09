@@ -70,10 +70,12 @@ def color_lips(image):
 
 
 
-<img src="https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg" alt="Visualizing each of the 68 facial coordinate points" style="zoom:75%;" />
+<img src="https://www.pyimagesearch.com/wp-content/uploads/2017/04/facial_landmarks_68markup-768x619.jpg" alt="Visualizing each of the 68 facial coordinate points" style="zoom: 67%;" />
 
 
 
 <div align="center">Visualizing each of the 68 facial coordinate points</div>
+
+
 
 You can use [drawing functions](https://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html) in OpenCV in order to draw different shapes to form cool objects on the face. Note that the indexes in the diagram above need to be subtracted by 1 to access the position of the landmark. For example, in order to access the coordinates of the tip of the nose (point 34 in the above diagram), you need to use `shape[33]`. Similarly, if you want to find the coordinates of the leftmost rear of the face (point 1), you need to use `shape[0]`. 
