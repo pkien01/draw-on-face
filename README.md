@@ -55,7 +55,7 @@ draw_glasses(image)
 In the file `model.py`, you can create a new function as follows
 
 ```python
-def color_lips(image):
+def draw_own_object(image):
 	gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 	rects = detector(gray, 1)
 
@@ -79,3 +79,8 @@ def color_lips(image):
 
 
 You can use [drawing functions](https://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html) in OpenCV in order to draw different shapes to form cool objects on the face. Note that the indexes in the diagram above need to be subtracted by 1 to access the position of the landmark. For example, in order to access the coordinates of the tip of the nose (point 34 in the above diagram), you need to use `shape[33]`. Similarly, if you want to find the coordinates of the leftmost rear of the face (point 1), you need to use `shape[0]`. 
+
+
+
+## Results
+
